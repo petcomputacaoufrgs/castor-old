@@ -1,4 +1,4 @@
-# <img src="https://www.inf.ufrgs.br/pet/images/castor.png" alt="drawing" width="25"/> Projeto Castor
+# `<img src="https://www.inf.ufrgs.br/pet/images/castor.png" alt="drawing" width="25"/>` Projeto Castor
 
 ## Descrição Geral
 
@@ -26,4 +26,3 @@ Caso deseje adicionar uma sugestão de linguagem ou ferramenta para ser coberta 
 Caso deseje colaborar com uma nova feature fique à vontade para realizar um [pull request](https://github.com/petcomputacaoufrgs/castor/pulls).
 
 Finalmente, caso deseje saber mais sobre o PET Computação, acesse [nosso site](https://www.inf.ufrgs.br/pet/projetos/) ou fale com um de nossos integrantes no Campus do Vale (Sala 201, Prédio 43424)
-do
