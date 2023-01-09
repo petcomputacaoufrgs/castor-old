@@ -1,4 +1,4 @@
-# `<img src="https://www.inf.ufrgs.br/pet/images/castor.png" alt="drawing" width="25"/>` Projeto Castor
+# <img src="https://www.inf.ufrgs.br/pet/images/castor.png" alt="drawing" width="25"/> Projeto Castor
 
 ## Descrição Geral
 
