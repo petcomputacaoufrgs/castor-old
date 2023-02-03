@@ -1,0 +1,57 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "gcc build active file linux",
+            "command": "/usr/bin/gcc",
+            "args": [
+                "-Wall",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}/*.c",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lm",
+                "-I${fileDirname}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task made by PET Computacao UFRGS."
+        },
+        {
+            "type": "cppbuild",
+            "label": "gcc build active file windows",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}\\*.c",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-lm",
+                "-I${fileDirname}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task made by PET Computacao UFRGS."
+        }
+    ],
+    "version": "2.0.0"
+}
