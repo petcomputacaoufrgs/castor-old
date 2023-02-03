@@ -1,4 +1,4 @@
-###### Linguagem: C
+# Linguagem: C
 
 ## Explicação:
 
@@ -27,7 +27,8 @@ Para modificar a maneira na qual o programa VSCode realiza o processo de compila
 
 ## Links de referencia:
 
-* [https://www.learn-c.org/](https://www.learn-c.org/) - Guia da Linguagem C
-* [https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html) - Manual da Implementação de GNU de C
-* [https://www.feg.unesp.br/Home/PaginasPessoais/profmarcosapereira3168/programacaodecomputadoresi/manual-de-sintaxe-da-linguagem-c.pdf](https://www.feg.unesp.br/Home/PaginasPessoais/profmarcosapereira3168/programacaodecomputadoresi/manual-de-sintaxe-da-linguagem-c.pdf) - Guia da UNESP de C
-* [https://www.ibm.com/docs/en/i/7.1?topic=extensions-standard-c-library-functions-table-by-name](https://www.ibm.com/docs/en/i/7.1?topic=extensions-standard-c-library-functions-table-by-name) - Lista de todas as funções das bibliotecas padrões
+* [https://www.learn-c.org/](https://www.learn-c.org/) - Guia da Linguagem C [EN]
+* [https://en.cppreference.com/w/c](https://en.cppreference.com/w/c) - Guia de referencia da linguagem C e suas versões [EN]
+* [https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html) - Manual da Implementação de GNU de C [EN]
+* [https://www.feg.unesp.br/Home/PaginasPessoais/profmarcosapereira3168/programacaodecomputadoresi/manual-de-sintaxe-da-linguagem-c.pdf](https://www.feg.unesp.br/Home/PaginasPessoais/profmarcosapereira3168/programacaodecomputadoresi/manual-de-sintaxe-da-linguagem-c.pdf) - Guia da UNESP de C [PT]
+* [https://www.ibm.com/docs/en/i/7.1?topic=extensions-standard-c-library-functions-table-by-name](https://www.ibm.com/docs/en/i/7.1?topic=extensions-standard-c-library-functions-table-by-name) - Lista de todas as funções das bibliotecas padrões [EN]
