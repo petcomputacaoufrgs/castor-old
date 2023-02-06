@@ -6,6 +6,7 @@
             "command": "g++",
             "args": [
                 "-Wall",
+                "-fanalyzer",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${fileDirname}/*.cpp",
@@ -32,6 +33,7 @@
             "command": "..\\compiladores\\windows\\w64devkit\\bin\\g++.exe",
             "args": [
                 "-Wall",
+                "-fanalyzer",
                 "-fdiagnostics-color=always",
                 "-g",
                 "${fileDirname}\\*.cpp",
@@ -41,7 +43,7 @@
                 "-I${fileDirname}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"

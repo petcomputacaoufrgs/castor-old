@@ -1,4 +1,4 @@
 #pragma once
 #include <stdio.h>
 
-void sayHello(void);
+void speak(void);
