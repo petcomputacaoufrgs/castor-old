@@ -29,7 +29,7 @@
                 "type": "cppdbg",
                 "request": "launch",
                 "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
-                // "miDebuggerPath": "${workspaceFolder}/.vscode/gdb.exe",
+                // "miDebuggerPath": "${workspaceFolder}/.vscode/gdb",
                 "preLaunchTask": "gcc build active file windows",
             },
             "linux": {
