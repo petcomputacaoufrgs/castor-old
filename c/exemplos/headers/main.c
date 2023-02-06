@@ -5,6 +5,6 @@
 int main(void)
 {
     speak(); // Chama a funcao speak
-    
+
     return 0;
 }

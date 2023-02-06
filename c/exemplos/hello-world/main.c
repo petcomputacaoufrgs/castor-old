@@ -1,4 +1,4 @@
-#include <stdio.h> // Inclui a biblioteca padrao de entrada e saida (std = standard, io = input/output)
+#include <stdio.h> // Inclui a biblioteca padrao de entrada e saida (std = standard, io = input/output = entrada e saida)
 
 // Arquivo normalmente usado para testar se o compilador esta funcionando corretamente
 
