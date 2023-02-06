@@ -29,7 +29,7 @@
                 "type": "cppdbg",
                 "request": "launch",
                 "program": "${fileDirname}/${fileBasenameNoExtension}.exe",
-                // "miDebuggerPath": "${workspaceFolder}/.vscode/gdb",
+                "miDebuggerPath": "${workspaceFolder}/../compiladores/windows/w64devkit/bin/gdb.exe",
                 "preLaunchTask": "gcc build active file windows",
             },
             "linux": {
@@ -38,7 +38,6 @@
                 "request": "launch",
                 "program": "${fileDirname}/${fileBasenameNoExtension}",
                 "preLaunchTask": "gcc build active file linux",
-                // "miDebuggerPath": "${workspaceFolder}/.vscode/gdb",
                 "miDebuggerArgs": "-q -ex quit; wait() { fg >/dev/null; }; /bin/gdb -q --interpreter=mi"
             }
         }

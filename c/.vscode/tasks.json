@@ -3,7 +3,7 @@
         {
             "type": "cppbuild",
             "label": "gcc build active file linux",
-            "command": "/usr/bin/gcc",
+            "command": "gcc",
             "args": [
                 "-Wall",
                 "-fdiagnostics-color=always",
@@ -29,7 +29,7 @@
         {
             "type": "cppbuild",
             "label": "gcc build active file windows",
-            "command": "gcc",
+            "command": "..\\compiladores\\windows\\w64devkit\\bin\\gcc.exe",
             "args": [
                 "-Wall",
                 "-fdiagnostics-color=always",
@@ -41,7 +41,7 @@
                 "-I${fileDirname}"
             ],
             "options": {
-                "cwd": "${fileDirname}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"
