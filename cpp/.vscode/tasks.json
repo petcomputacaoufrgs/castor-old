@@ -1,0 +1,59 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "gpp build active file linux",
+            "command": "g++",
+            "args": [
+                "-Wall",
+                "-fanalyzer",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}/*.cpp",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}",
+                "-lm",
+                "-I${fileDirname}"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task made by PET Computacao UFRGS."
+        },
+        {
+            "type": "cppbuild",
+            "label": "gpp build active file windows",
+            "command": "..\\compiladores\\windows\\w64devkit\\bin\\g++.exe",
+            "args": [
+                "-Wall",
+                "-fanalyzer",
+                "-fdiagnostics-color=always",
+                "-g",
+                "${fileDirname}\\*.cpp",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.exe",
+                "-lm",
+                "-I${fileDirname}"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Task made by PET Computacao UFRGS."
+        }
+    ],
+    "version": "2.0.0"
+}
