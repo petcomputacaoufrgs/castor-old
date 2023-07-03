@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "command": "g++",
+            "type": "shell",
+            "args": [
+                "-std=c++11",
+                "-Wall", 
+                "-Wno-unused-function",
+                "-g",
+                "-I",
+                "./include/",
+                "-o" ,
+                "./bin/Release/${fileBasenameNoExtension}",
+                "src/main.cpp" ,
+                "src/glad.c" ,
+                "src/textrendering.cpp",
+                "./lib-mingw-32/libglfw3.a",
+                "-lgdi32",
+                "-lopengl32"
+            ],
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "presentation": {
+                "reveal": "always"
+            },
+            "group": "build"
+        }
+    ]
+}
